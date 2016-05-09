@@ -1,0 +1,13 @@
+
+.u-marBot {
+  margin-bottom: var(--base-spacing);
+}
+
+.u-padAll {
+  padding: var(--base-spacing);
+}
+
+.u-padTall {
+  padding-bottom: var(--base-spacing);
+  padding-top: var(--base-spacing);
+}

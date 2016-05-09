@@ -1,0 +1,100 @@
+/* @import "./components/Button/Button.css"; */
+
+@import "suitcss-components-grid";
+@import "suitcss-components-button";
+@import "css/c-button.css";
+@import "css/c-input.css";
+@import "suitcss-utils-display";
+@import "suitcss-utils-size";
+@import "suitcss-utils-text";
+@import "css/u-spacing.css";
+@import "css/b-header.css";
+@import "css/b-footer.css";
+
+:root {
+  --Grid-gutter-size: 1.4rem;
+  --base-font-size: 1rem;
+  --base-font: "Helvetica Neue", sans-serif;
+  --base-header-font: "AvantGarde LT Medium";
+  --base-spacing: 1.4rem;
+  --primary-color: red;
+  --secondary-color: blue;
+}
+
+@custom-media --sm-viewport (max-width:640px);
+@custom-media --md-viewport (min-width:640px);
+@custom-media --lg-viewport (min-width:960px);
+@custom-media --xl-viewport (min-width:1280px);
+
+html {
+  background-color: #fcfcfc;
+  font-size: 87.5%;
+}
+
+body {
+  color: rgba(0, 0, 0, 0.85);
+  font-family: var(--base-font);
+  font-size: var(--base-font-size);
+  line-height: 1.4;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--base-header-font);
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.875em;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.875em;
+  text-transform: uppercase;
+}
+
+.zeta {
+  font-size: 0.75rem;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.img-small {
+  max-height: 56px;
+}
+
+.img-medium {
+  max-width: 128px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.Card {
+  max-width: 280px;
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 8px auto;
+}

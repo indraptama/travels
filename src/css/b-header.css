@@ -1,0 +1,37 @@
+.MainHeader {
+  width: 100%;
+  position: relative;
+}
+
+.logo {
+  float: left;
+}
+
+
+.MainNav {
+  float: right;
+}
+
+.MainNav > ul {
+  display: flex;
+}
+
+.MainNav-subList {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+}
+
+.MainNav-subList li {
+  display: block;
+  width: 240px;
+  background-color: red;
+  text-align: center;
+}
+
+.MainNav-subListLink {
+  text-decoration: none;
+}

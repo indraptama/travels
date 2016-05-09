@@ -1,0 +1,27 @@
+.Main-footer {
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+
+  color: #fff;
+  background-color: #689f38;
+}
+
+.List-PaymentLogo > li {
+  float: left;
+
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.Main-footer a {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+.Main-footer a:hover,
+.Main-footer a:focus {
+  text-decoration: underline;
+}
